@@ -16,7 +16,6 @@ body {
   max-width: 960px;
 }
 
-
 h1,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -30,6 +29,7 @@ h1 {
 }
 
 /* header */
+
 #masthead {
   overflow: auto;
   border-bottom: 2px solid #cccccc;
@@ -42,11 +42,19 @@ h1 {
   background-color:#4aaaa5;
 }
 
+#logo:hover{
+  background-color: #777777;
+}
+
 nav a {
   font-size: 100%;
   color: #999;
   text-decoration: none;
   border-right: 1px solid #efefef;
+}
+
+nav a:hover {
+  color: #4aaaa5;
 }
 
 /* footer */
@@ -77,9 +85,15 @@ footer {
   overflow: auto;
 }
 
+.work a {
+  -webkit-filter: opacity(80%);
+  filter: opacity(80%);
+  text-decoration: none;
+}
 
-.work img {
-  opacity: 0.8;
+.work a:hover {
+  -webkit-filter: opacity(50%);
+  filter: opacity(50%);
 }
 
 .work h3 {
@@ -92,40 +106,10 @@ footer {
 
 /* contact page */
 
-/*#contact-form ul {
-  margin-bottom: 20px;
-}
-
-#contact-form li {
-  margin-bottom: 10px;
-}
-
-label,
-input[type=text],
-input[type=email],
-textarea {
-  display: block;
-  width: 100%;
-}
-
-input[type=text],
-input[type=email],
-textarea {
-  height: 35px;
-  padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #dddddd;
-}
-
-textarea {
-  height: 200px;
-}
-
 input[type=submit] {
-  padding: 10px 30px;
-  font-size: 18px;
-  color: #ffffff;
-  cursor: pointer;
   background: #4aaaa5;
-  border: 0 none;
+}
+
+input[type=submit]:hover{
+  background-color: #777777;
 }
