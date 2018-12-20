@@ -30,19 +30,19 @@ h1 {
 
 /* header */
 
-#masthead {
+#mainhead {
   overflow: auto;
   border-bottom: 2px solid #cccccc;
 }
 
-#logo {
+#myName {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 170%;
   text-decoration: none;
   background-color:#4aaaa5;
 }
 
-#logo:hover{
+#myName:hover{
   background-color: #777777;
 }
 
@@ -80,23 +80,23 @@ footer {
 
 /* portfolio page */
 
-.work {
+.imgbox {
   position: relative;
   overflow: auto;
 }
 
-.work a {
+.imgbox a {
   -webkit-filter: opacity(80%);
   filter: opacity(80%);
   text-decoration: none;
 }
 
-.work a:hover {
+.imgbox a:hover {
   -webkit-filter: opacity(50%);
   filter: opacity(50%);
 }
 
-.work h3 {
+.imgbox h3 {
   position: absolute;
   bottom: 10px;
   font-size: 120%;
